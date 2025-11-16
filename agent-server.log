@@ -1,0 +1,467 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+
+======================================================================
+🤖 AGENT SERVER - Starting
+======================================================================
+
+🔄 Loading GUI-Actor model...
+🔄 Loading GUI-Actor-2B model...
+   Device: mps
+   ✓ Gradient checkpointing enabled
+   Model device: mps:0
+✅ Model loaded successfully!
+✅ Model loaded successfully!
+
+✅ Server initialized successfully!
+📡 Listening for commands from Electron app...
+
+ * Serving Flask app 'agent_server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [16/Nov/2025 03:26:33] "GET /health HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:26:47] "POST /agent/start HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:26:49] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:26:51] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:26:53] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:26:55] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:26:57] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:26:59] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:01] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:03] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:06] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:07] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:09] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:11] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:13] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:16] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:17] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:19] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:21] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:23] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:25] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:27] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:29] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:33] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:33] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:35] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:37] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:39] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:41] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:43] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:45] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:48] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:49] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:51] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:53] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:56] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:57] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:27:59] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:01] "GET /agent/status HTTP/1.1" 200 -
+
+🚀 Starting agent with goal: open chatgpt and ask it how to de-stress
+[03:26:47] 
+======================================================================
+[03:26:47] 🤖 AUTONOMOUS GUI AGENT SYSTEM
+[03:26:47] ======================================================================
+[03:26:47] 🎯 Goal: open chatgpt and ask it how to de-stress
+[03:26:47] 📊 Max iterations: 20
+[03:26:47] ======================================================================
+
+[03:26:47] 🔄 Loading GUI-Actor model...
+🔄 Loading GUI-Actor-2B model...
+   Device: mps
+   ✓ Gradient checkpointing enabled
+   Model device: mps:0
+✅ Model loaded successfully!
+[03:27:00] ✅ Model loaded successfully!
+
+[03:27:00] 
+======================================================================
+[03:27:00] 🔄 ITERATION 1/20
+[03:27:00] ======================================================================
+[03:27:00] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:27:02] 💾 Screenshot saved: autonomous_screenshots/iter_001_before_action.png
+[03:27:02] 🧠 Asking orchestrator: What's the next action for 'open chatgpt and ask it how to de-stress'?
+[03:27:05] 💡 Orchestrator says: Click on the ChatGPT suggestion in the middle left of the screen.
+[03:27:05] 🔍 Parsing action...
+[03:27:05]    Action type: click
+[03:27:05] ⚡ Executing action via GUI agent...
+📁 Logging to: command_logs/command_1
+[03:27:05] 🖱️  First click detected - executing double-click
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_1/screenshot.png
+🤖 Analyzing: 'Click on the ChatGPT suggestion in the middle left of the screen.'
+🧠 Running model inference...
+🧠 VLM response logged
+🎯 Predicted location: (0.1813, 0.4928)
+💾 Debug screenshot saved: debug_click_20251116_032708.png
+💾 Debug screenshot copied to: command_logs/command_1/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (139.2, 245.4)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (274, 483)
+🖱️  Moving to (274, 483)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.1813, 0.4928)
+🔍 Verification:
+   Target position: (274, 483)
+   Actual position: (274, 483)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (274, 483)
+[03:27:11] ✅ First click executed
+[03:27:11] ⏳ Waiting 1s before second click...
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_1/screenshot.png
+🤖 Analyzing: 'Click on the ChatGPT suggestion in the middle left of the screen.'
+🧠 Running model inference...
+🧠 VLM response logged
+🎯 Predicted location: (0.1813, 0.4928)
+💾 Debug screenshot saved: debug_click_20251116_032719.png
+💾 Debug screenshot copied to: command_logs/command_1/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (139.2, 245.4)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (274, 483)
+🖱️  Moving to (274, 483)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.1813, 0.4928)
+🔍 Verification:
+   Target position: (274, 483)
+   Actual position: (274, 483)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (274, 483)
+[03:27:21] ✅ Second click executed
+[03:27:21] ✅ Action executed successfully
+💾 Command log saved: command_logs/command_1/command_log.json
+💾 Summary saved: command_logs/command_1/summary.txt
+[03:27:21] ⏳ Waiting 1.0s for UI to update...
+[03:27:22] ✓ Iteration 1 complete
+
+[03:27:22] 
+======================================================================
+[03:27:22] 🔄 ITERATION 2/20
+[03:27:22] ======================================================================
+[03:27:22] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:27:24] 💾 Screenshot saved: autonomous_screenshots/iter_002_before_action.png
+[03:27:24] 🧠 Asking orchestrator: What's the next action for 'open chatgpt and ask it how to de-stress'?
+[03:27:28] 💡 Orchestrator says: Press Enter
+[03:27:28] 🔍 Parsing action...
+[03:27:28]    Action type: click
+[03:27:28] ⚡ Executing action via GUI agent...
+📁 Logging to: command_logs/command_2
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_2/screenshot.png
+🤖 Analyzing: 'Press Enter'
+🧠 Running model inference...
+🧠 VLM response logged
+🎯 Predicted location: (0.4521, 0.0603)
+💾 Debug screenshot saved: debug_click_20251116_032735.png
+💾 Debug screenshot copied to: command_logs/command_2/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (347.2, 30.0)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (683, 59)
+🖱️  Moving to (683, 59)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.4521, 0.0603)
+🔍 Verification:
+   Target position: (683, 59)
+   Actual position: (683, 59)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (683, 59)
+[03:27:37] ✅ Action executed successfully
+💾 Command log saved: command_logs/command_2/command_log.json
+💾 Summary saved: command_logs/command_2/summary.txt
+[03:27:37] ⏳ Waiting 1.0s for UI to update...
+[03:27:38] ✓ Iteration 2 complete
+
+[03:27:38] 
+======================================================================
+[03:27:38] 🔄 ITERATION 3/20
+[03:27:38] ======================================================================
+[03:27:38] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:27:39] 💾 Screenshot saved: autonomous_screenshots/iter_003_before_action.png
+[03:27:39] 🧠 Asking orchestrator: What's the next action for 'open chatgpt and ask it how to de-stress'?
+[03:27:45] 💡 Orchestrator says: Click on the ChatGPT tile in the middle left of the screen
+[03:27:45] 🔍 Parsing action...
+[03:27:45]    Action type: click
+[03:27:45] ⚡ Executing action via GUI agent...
+📁 Logging to: command_logs/command_3
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_3/screenshot.png
+🤖 Analyzing: 'Click on the ChatGPT tile in the middle left of the screen'
+🧠 Running model inference...
+🧠 VLM response logged
+🎯 Predicted location: (0.2035, 0.1259)
+💾 Debug screenshot saved: debug_click_20251116_032750.png
+💾 Debug screenshot copied to: command_logs/command_3/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (156.3, 62.7)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (307, 123)
+🖱️  Moving to (307, 123)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.2035, 0.1259)
+🔍 Verification:
+   Target position: (307, 123)
+   Actual position: (307, 123)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (307, 123)
+[03:27:52] ✅ Action executed successfully
+💾 Command log saved: command_logs/command_3/command_log.json
+💾 Summary saved: command_logs/command_3/summary.txt
+[03:27:52] ⏳ Waiting 1.0s for UI to update...
+[03:27:53] ✓ Iteration 3 complete
+
+[03:27:53] 
+======================================================================
+[03:27:53] 🔄 ITERATION 4/20
+[03:27:53] ======================================================================
+[03:27:53] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:27:57] 💾 Screenshot saved: autonomous_screenshots/iter_004_before_action.png
+[03:27:57] 🧠 Asking orchestrator: What's the next action for 'open chatgpt and ask it how to de-stress'?
+[03:27:59] 💡 Orchestrator says: Click on the "Ask anything" text field in the middle of the screen
+[03:27:59] 🔍 Parsing action...
+[03:27:59]    Action type: click
+[03:27:59] ⚡ Executing action via GUI agent...
+📁 Logging to: command_logs/command_4
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_4/screenshot.png
+🤖 Analyzing: 'Click on the "Ask anything" text field in the middle of the screen'
+🧠 Running model inference...
+🧠 VLM response logged127.0.0.1 - - [16/Nov/2025 03:28:03] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:05] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:07] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:09] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:36] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:37] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:38] "POST /agent/stop HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:39] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:47] "POST /agent/start HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:49] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:51] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:53] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:55] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:57] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:28:59] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:01] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:03] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:05] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:07] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:09] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:11] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:13] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:15] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:17] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:20] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:21] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:24] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:25] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:27] "GET /agent/status HTTP/1.1" 200 -
+
+🎯 Predicted location: (0.5346, 0.4993)
+💾 Debug screenshot saved: debug_click_20251116_032803.png
+💾 Debug screenshot copied to: command_logs/command_4/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (410.6, 248.7)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (808, 490)
+🖱️  Moving to (808, 490)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.5346, 0.4993)
+🔍 Verification:
+   Target position: (808, 490)
+   Actual position: (808, 490)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (808, 490)
+[03:28:05] ✅ Action executed successfully
+💾 Command log saved: command_logs/command_4/command_log.json
+💾 Summary saved: command_logs/command_4/summary.txt
+[03:28:05] ⏳ Waiting 1.0s for UI to update...
+[03:28:06] ✓ Iteration 4 complete
+
+[03:28:06] 
+======================================================================
+[03:28:06] 🔄 ITERATION 5/20
+[03:28:06] ======================================================================
+[03:28:06] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:28:07] 💾 Screenshot saved: autonomous_screenshots/iter_005_before_action.png
+[03:28:07] 🧠 Asking orchestrator: What's the next action for 'open chatgpt and ask it how to de-stress'?
+[03:28:09] 💡 Orchestrator says: Type 'how to de-stress'
+[03:28:09] 🔍 Parsing action...
+[03:28:09]    Action type: type
+[03:28:09] ⚡ Executing action via GUI agent...
+📁 Logging to: command_logs/command_5
+⌨️  Typing: how to de-stress
+✅ Text typed successfully
+[03:28:11] ✅ Action executed successfully
+💾 Command log saved: command_logs/command_5/command_log.json
+💾 Summary saved: command_logs/command_5/summary.txt
+[03:28:11] ⏳ Waiting 1.0s for UI to update...
+[03:28:12] ✓ Iteration 5 complete
+
+[03:28:12] 
+======================================================================
+[03:28:12] 🔄 ITERATION 6/20
+[03:28:12] ======================================================================
+[03:28:12] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:28:13] 💾 Screenshot saved: autonomous_screenshots/iter_006_before_action.png
+[03:28:13] 🧠 Asking orchestrator: What's the next action for 'open chatgpt and ask it how to de-stress'?
+[03:28:15] 💡 Orchestrator says: Click on the upward arrow button to the right of the text field, in the middle right of the screen
+[03:28:15] 🔍 Parsing action...
+[03:28:15]    Action type: click
+[03:28:15] ⚡ Executing action via GUI agent...
+📁 Logging to: command_logs/command_6
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_6/screenshot.png
+🤖 Analyzing: 'Click on the upward arrow button to the right of the text field, in the middle right of the screen'
+🧠 Running model inference...
+🧠 VLM response logged
+🎯 Predicted location: (0.8129, 0.5003)
+💾 Debug screenshot saved: debug_click_20251116_032825.png
+💾 Debug screenshot copied to: command_logs/command_6/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (624.3, 249.2)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (1229, 491)
+🖱️  Moving to (1229, 491)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.8129, 0.5003)
+🔍 Verification:
+   Target position: (1229, 491)
+   Actual position: (1229, 491)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (1229, 491)
+[03:28:27] ✅ Action executed successfully
+💾 Command log saved: command_logs/command_6/command_log.json
+💾 Summary saved: command_logs/command_6/summary.txt
+[03:28:27] ⏳ Waiting 1.0s for UI to update...
+[03:28:28] ✓ Iteration 6 complete
+
+[03:28:28] 
+======================================================================
+[03:28:28] 🔄 ITERATION 7/20
+[03:28:28] ======================================================================
+[03:28:28] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:28:29] 💾 Screenshot saved: autonomous_screenshots/iter_007_before_action.png
+[03:28:29] 🧠 Asking orchestrator: What's the next action for 'open chatgpt and ask it how to de-stress'?
+[03:28:42] 💡 Orchestrator says: GOAL_COMPLETE
+[03:28:42] 
+======================================================================
+[03:28:42] 🎉 SUCCESS! Goal has been achieved!
+[03:28:42] ======================================================================
+✅ Goal completed: open chatgpt and ask it how to de-stress
+
+🚀 Starting agent with goal: open youtube
+[03:28:47] 
+======================================================================
+[03:28:47] 🤖 AUTONOMOUS GUI AGENT SYSTEM
+[03:28:47] ======================================================================
+[03:28:47] 🎯 Goal: open youtube
+[03:28:47] 📊 Max iterations: 20
+[03:28:47] ======================================================================
+
+[03:28:47] 🔄 Loading GUI-Actor model...
+🔄 Loading GUI-Actor-2B model...
+   Device: mps
+   ✓ Gradient checkpointing enabled
+   Model device: mps:0
+✅ Model loaded successfully!
+[03:29:08] ✅ Model loaded successfully!
+
+[03:29:08] 
+======================================================================
+[03:29:08] 🔄 ITERATION 1/20
+[03:29:08] ======================================================================
+[03:29:08] 📸 Capturing current screen state...
+📐 Resizing screenshot from 3024x1964 to 768x498
+[03:29:09] 💾 Screenshot saved: autonomous_screenshots/iter_001_before_action.png
+[03:29:09] 🧠 Asking orchestrator: What's the next action for 'open youtube'?
+[03:29:11] 💡 Orchestrator says: Click on the address bar at the top of the screen
+[03:29:11] 🔍 Parsing action...
+[03:29:11]    Action type: click
+[03:29:11] ⚡ Executing action via GUI agent...
+📁 Logging to: command_logs/command_1
+[03:29:11] 🖱️  First click detected - executing double-click
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_1/screenshot.png
+🤖 Analyzing: 'Click on the address bar at the top of the screen'
+🧠 Running model inference...
+🧠 VLM response logged
+🎯 Predicted location: (0.5025, 0.0733)
+💾 Debug screenshot saved: debug_click_20251116_032916.png
+💾 Debug screenshot copied to: command_logs/command_1/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (386.0, 36.5)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (759, 71)
+🖱️  Moving to (759, 71)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.5025, 0.0733)
+🔍 Verification:
+   Target position: (759, 71)
+   Actual position: (759, 71)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (759, 71)
+[03:29:18] ✅ First click executed
+[03:29:18] ⏳ Waiting 1s before second click...
+📸 Using provided screenshot (768x498)
+💾 Screenshot saved: command_logs/command_1/screenshot.png
+🤖 Analyzing: 'Click on the address bar at the top of the screen'
+🧠 Running model inference...
+🧠 VLM response logged
+🎯 Predicted location: (0.5025, 0.0733)
+💾 Debug screenshot saved: debug_click_20251116_032926.png
+💾 Debug screenshot copied to: command_logs/command_1/debug_annotated.png
+   Screenshot dimensions: 768x498
+   Screen dimensions (logical): 1512x982
+   Screenshot coords: (386.0, 36.5)
+   Scale factors: (1.969, 1.972)
+   Logical coords (for pyautogui): (759, 71)
+🖱️  Moving to (759, 71)
+   Screen size (logical): 1512x982
+   Normalized coords: (0.5025, 0.0733)
+🔍 Verification:
+   Target position: (759, 71)
+   Actual position: (759, 71)
+   Position error: (0, 0) pixels
+✅ Clicked at actual position (759, 71)
+[03:29:28] ✅ Second click executed
+[03:29:28] ✅ Action executed successfully
+💾 Command log saved: command_logs/command_1/command_log.json
+💾 Summary saved: command_logs/command_1/summary.txt
+[03:29:28] ⏳ Waiting 1.0s for UI to update...
+[03:29:29] ✓ Iteration 1 complete
+
+[03:29:29] 
+======================================================================127.0.0.1 - - [16/Nov/2025 03:29:29] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:31] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:33] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:35] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:37] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:39] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:41] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:48] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:48] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:48] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:49] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:51] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:53] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:55] "GET /agent/status HTTP/1.1" 200 -
+127.0.0.1 - - [16/Nov/2025 03:29:57] "GET /agent/status HTTP/1.1" 200 -
