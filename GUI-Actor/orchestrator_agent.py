@@ -2,7 +2,6 @@ import google.generativeai as genai
 from PIL import Image
 import os
 
-# Configure the API with your key
 genai.configure(api_key='AIzaSyDMN_LE1wU6IJC5EQqrVSDn6FLaui_N5tg')
 
 def test(action):
@@ -16,11 +15,7 @@ def test(action):
         tuple: ("DONE", screenshot_path) - status and path to new screenshot
     """
     print(f"Executing: {action}")
-    # Your actual action execution logic goes here
-    # This should perform the click and capture a new screenshot
-    
-    # For now, returning placeholder
-    new_screenshot_path = "updated_screenshot.png"  # Replace with actual new screenshot path
+    new_screenshot_path = "updated_screenshot.png"
     print("DONE")
     return ("DONE", new_screenshot_path)
 
@@ -36,19 +31,15 @@ def get_next_action(screenshot_path, goal, chat_history=None):
     Returns:
         str: The next action to take, or None if goal is complete
     """
-    # Load the screenshot
     img = Image.open(screenshot_path)
     
-    # Build context from chat history
     history_context = ""
     if chat_history and len(chat_history) > 0:
         history_context = "\n\nPrevious actions taken:\n"
-        # Show last 3 actions to avoid repeating
         for action in chat_history[-3:]:
             history_context += f"- {action}\n"
         history_context += "\nDo NOT repeat the same action. Move to the NEXT step.\n"
     
-    # Create the prompt
     prompt = f"""You are controlling a computer to achieve this goal: '{goal}'
 {history_context}
 Look at the current screenshot and determine the NEXT SINGLE ACTION needed.
@@ -79,17 +70,11 @@ IMPORTANT:
 
 What is the next action?"""
     
-    # Build contents list (prompt + image)
     contents = [prompt, img]
     
-    # If we have chat history, we can maintain context across calls
-    # For now, we'll make fresh calls each time for simplicity
-    
-    # Send request to Gemini 2.5 Flash
     model = genai.GenerativeModel('gemini-2.5-flash')
     response = model.generate_content(contents)
     
-    # Extract the text response
     response_text = response.text.strip()
     
     return response_text
@@ -115,7 +100,6 @@ def execute_goal_with_iterations(initial_screenshot_path, goal, max_iterations=2
     current_screenshot = initial_screenshot_path
     iteration = 0
     
-    # Store conversation history for context (optional)
     conversation_history = []
     
     while iteration < max_iterations:
@@ -124,24 +108,20 @@ def execute_goal_with_iterations(initial_screenshot_path, goal, max_iterations=2
         print(f"ITERATION {iteration}")
         print(f"{'='*60}")
         
-        # Get next action from Gemini
         print(f"Analyzing screenshot: {current_screenshot}")
         next_action = get_next_action(current_screenshot, goal, conversation_history)
         
         print(f"\nGemini 2.5 Flash says: {next_action}")
         
-        # Store in conversation history
         conversation_history.append({
             "screenshot": current_screenshot,
             "action": next_action
         })
         
-        # Check if goal is complete
         if "GOAL_COMPLETE" in next_action.upper() or "goal is achieved" in next_action.lower():
             print("\n✓ Goal achieved!")
             break
         
-        # Execute the action
         print(f"\nExecuting action...")
         status, new_screenshot = test(next_action)
         
@@ -159,14 +139,8 @@ def execute_goal_with_iterations(initial_screenshot_path, goal, max_iterations=2
     print("Process complete!")
     return conversation_history
 
-# Example usage
 if __name__ == "__main__":
-    # Set your API key as environment variable:
-    # export GEMINI_API_KEY='your-api-key-here'
-    # Or on Windows: set GEMINI_API_KEY=your-api-key-here
-    
-    # Example: Open Safari starting from home screen
-    initial_screenshot = "homescreen.png"  # Replace with your screenshot path
+    initial_screenshot = "homescreen.png"
     goal = "Open Safari browser"
     
     history = execute_goal_with_iterations(initial_screenshot, goal, max_iterations=20)

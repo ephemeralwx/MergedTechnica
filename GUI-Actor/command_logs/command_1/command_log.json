@@ -1,14 +1,14 @@
 {
   "command_number": 1,
-  "command_text": "Click on the address bar at the top of the screen",
-  "timestamp": "2025-11-16T03:29:11.400771",
+  "command_text": "Click on the '+' icon at the top right of the screen",
+  "timestamp": "2025-11-16T10:32:41.191680",
   "parsed_action": {
     "type": "click",
-    "target": "Click on the address bar at the top of the screen"
+    "target": "Click on the '+' icon at the top right of the screen"
   },
   "screenshot_path": "command_logs/command_1/screenshot.png",
   "vlm_request": {
-    "instruction": "Click on the address bar at the top of the screen",
+    "instruction": "Click on the '+' icon at the top right of the screen",
     "screenshot_size": "768x498",
     "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
     "topk": 3
@@ -16,47 +16,39 @@
   "vlm_response": {
     "topk_points": [
       {
-        "x": 0.5025453238907861,
-        "y": 0.07331825615091958
+        "x": 0.9444444444444444,
+        "y": 0.07035032985603328
       },
       {
-        "x": 0.18821419888159494,
-        "y": 0.06781850230974958
-      },
-      {
-        "x": 0.35185185185185186,
-        "y": 0.027777777777777776
+        "x": 0.9157452249937799,
+        "y": 0.19444444444444445
       }
     ]
   },
   "predicted_points": [
     {
-      "x": 0.5025453238907861,
-      "y": 0.07331825615091958
+      "x": 0.9444444444444444,
+      "y": 0.07035032985603328
     },
     {
-      "x": 0.18821419888159494,
-      "y": 0.06781850230974958
-    },
-    {
-      "x": 0.35185185185185186,
-      "y": 0.027777777777777776
+      "x": 0.9157452249937799,
+      "y": 0.19444444444444445
     }
   ],
   "selected_point": {
     "normalized": {
-      "x": 0.5025453238907861,
-      "y": 0.07331825615091958
+      "x": 0.9444444444444444,
+      "y": 0.07035032985603328
     },
     "pixel": {
-      "x": 385,
-      "y": 36
+      "x": 725,
+      "y": 35
     }
   },
   "execution_result": {
     "success": true,
     "action_type": "click",
-    "details": "Clicked at (385, 36)"
+    "details": "Clicked at (725, 35)"
   },
   "errors": [],
   "debug_screenshot_path": "command_logs/command_1/debug_annotated.png"

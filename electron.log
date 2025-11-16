@@ -9,7 +9,7 @@ vite v5.4.21 building for development...
 
 watching for file changes...
 
-  VITE v5.4.21  ready in 265 ms
+  VITE v5.4.21  ready in 307 ms
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
@@ -23,7 +23,7 @@ transforming...
 rendering chunks...
 computing gzip size...
 dist-electron/preload.mjs  2.04 kB │ gzip: 0.56 kB
-built in 88ms.
+built in 85ms.
 ✓ 182 modules transformed.
 rendering chunks...
 computing gzip size...
@@ -32,13 +32,11 @@ dist-electron/token-Ci2O_1JK.js               2.90 kB │ gzip:   1.10 kB
 dist-electron/token-util-YCJ073Hg.js          9.80 kB │ gzip:   2.67 kB
 dist-electron/multipart-parser-hE2ANpfY.js    9.95 kB │ gzip:   2.50 kB
 dist-electron/main-X8BZ4E90.js              822.94 kB │ gzip: 148.08 kB
-built in 727ms.
-[dotenv@17.2.3] injecting env (0) from .env.local -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+built in 752ms.
+[dotenv@17.2.3] injecting env (0) from .env.local -- tip: ⚙️  enable debug logging with { debug: true }
 [dotenv@17.2.3] injecting env (0) from .env -- tip: 🔑 add access controls to secrets: https://dotenvx.com/ops
 Environment variables loaded:
 Project root: /Users/kevinxia/Desktop/code/MergedCodeTechnica/manus-x-cluely
 Has ELEVENLABS_API_KEY: false
 Has OPENAI_API_KEY: true
-Starting agent with goal: open chatgpt and ask it how to de-stress
-Stopping agent...
-Starting agent with goal: open youtube
+Starting agent with goal: open a new tab
