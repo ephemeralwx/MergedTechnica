@@ -1,0 +1,47 @@
+{
+  "command_number": 7,
+  "command_text": "Click on \"ChatGPT chatgpt.com\" in the middle left of the screen",
+  "timestamp": "2025-11-16T02:26:53.763580",
+  "parsed_action": {
+    "type": "click",
+    "target": "Click on \"ChatGPT chatgpt.com\" in the middle left of the screen"
+  },
+  "screenshot_path": "command_logs/command_7/screenshot.png",
+  "vlm_request": {
+    "instruction": "Click on \"ChatGPT chatgpt.com\" in the middle left of the screen",
+    "screenshot_size": "768x498",
+    "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
+    "topk": 3
+  },
+  "vlm_response": {
+    "topk_points": [
+      {
+        "x": 0.1827393431167016,
+        "y": 0.5116151028100714
+      }
+    ]
+  },
+  "predicted_points": [
+    {
+      "x": 0.1827393431167016,
+      "y": 0.5116151028100714
+    }
+  ],
+  "selected_point": {
+    "normalized": {
+      "x": 0.1827393431167016,
+      "y": 0.5116151028100714
+    },
+    "pixel": {
+      "x": 140,
+      "y": 254
+    }
+  },
+  "execution_result": {
+    "success": true,
+    "action_type": "click",
+    "details": "Clicked at (140, 254)"
+  },
+  "errors": [],
+  "debug_screenshot_path": "command_logs/command_7/debug_annotated.png"
+}

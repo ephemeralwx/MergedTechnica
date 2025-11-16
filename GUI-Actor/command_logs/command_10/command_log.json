@@ -1,0 +1,21 @@
+{
+  "command_number": 10,
+  "command_text": "Type 'use github'",
+  "timestamp": "2025-11-16T00:16:05.479453",
+  "parsed_action": {
+    "type": "type",
+    "text": "use github"
+  },
+  "screenshot_path": null,
+  "vlm_request": null,
+  "vlm_response": null,
+  "predicted_points": [],
+  "selected_point": null,
+  "execution_result": {
+    "success": true,
+    "action_type": "type",
+    "details": "Typed: use github"
+  },
+  "errors": [],
+  "debug_screenshot_path": null
+}

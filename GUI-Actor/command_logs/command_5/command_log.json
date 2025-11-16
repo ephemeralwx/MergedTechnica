@@ -1,0 +1,21 @@
+{
+  "command_number": 5,
+  "command_text": "Type 'how to de-stress'",
+  "timestamp": "2025-11-16T03:28:09.252444",
+  "parsed_action": {
+    "type": "type",
+    "text": "how to de-stress"
+  },
+  "screenshot_path": null,
+  "vlm_request": null,
+  "vlm_response": null,
+  "predicted_points": [],
+  "selected_point": null,
+  "execution_result": {
+    "success": true,
+    "action_type": "type",
+    "details": "Typed: how to de-stress"
+  },
+  "errors": [],
+  "debug_screenshot_path": null
+}

@@ -1,0 +1,21 @@
+{
+  "command_number": 2,
+  "command_text": "Type 'youtube'",
+  "timestamp": "2025-11-16T03:29:32.504271",
+  "parsed_action": {
+    "type": "type",
+    "text": "youtube"
+  },
+  "screenshot_path": null,
+  "vlm_request": null,
+  "vlm_response": null,
+  "predicted_points": [],
+  "selected_point": null,
+  "execution_result": {
+    "success": true,
+    "action_type": "type",
+    "details": "Typed: youtube"
+  },
+  "errors": [],
+  "debug_screenshot_path": null
+}

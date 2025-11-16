@@ -1,0 +1,121 @@
+/*.prompt-input:focus {
+ border-color: rgba(255, 255, 255, 0.4);
+ background: rgba(255, 255, 255, 0.15);
+ box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+}*/
+
+/*.vibrancy-container {
+ background: rgba(0, 0, 0, 0.3);
+ -webkit-backdrop-filter: blur(40px) saturate(1.5);
+ backdrop-filter: blur(40px) saturate(1.5);
+ border-radius: 24px;
+ border: 1px solid rgba(255, 255, 255, 0.1);
+ padding: 1.5rem;
+ box-shadow:
+  0 10px 40px rgba(0, 0, 0, 0.4),
+  0 0 0 0.5px rgba(255, 255, 255, 0.05) inset;
+}*/
+
+body {
+ margin: 0;
+ padding: 0;
+ background: transparent;
+ /*overflow: hidden;*/
+}
+
+#root {
+ /*background: transparent;*/
+}
+
+/* Streamdown styling for chat messages */
+.chat-message .prose {
+ color: inherit;
+}
+
+.chat-message .prose h1,
+.chat-message .prose h2,
+.chat-message .prose h3,
+.chat-message .prose h4,
+.chat-message .prose h5,
+.chat-message .prose h6 {
+ color: inherit;
+ margin-top: 0.5rem;
+ margin-bottom: 0.5rem;
+}
+
+.chat-message .prose p {
+ margin-top: 0.25rem;
+ margin-bottom: 0.25rem;
+}
+
+.chat-message .prose code {
+ background-color: rgba(255, 255, 255, 0.1);
+ padding: 0.125rem 0.25rem;
+ border-radius: 0.25rem;
+ font-size: 0.875rem;
+}
+
+.chat-message .prose pre {
+ background-color: rgba(0, 0, 0, 0.3);
+ padding: 0.75rem;
+ border-radius: 0.5rem;
+ overflow-x: auto;
+ margin: 0.5rem 0;
+}
+
+.chat-message .prose pre code {
+ background-color: transparent;
+ padding: 0;
+}
+
+.chat-message .prose blockquote {
+ border-left: 3px solid rgba(255, 255, 255, 0.3);
+ padding-left: 0.75rem;
+ margin: 0.5rem 0;
+ font-style: italic;
+}
+
+.chat-message .prose ul,
+.chat-message .prose ol {
+ margin: 0.5rem 0;
+ padding-left: 1.25rem;
+}
+
+.chat-message .prose li {
+ margin: 0.125rem 0;
+}
+
+.chat-message .prose a {
+ color: #60a5fa;
+ text-decoration: underline;
+}
+
+.chat-message .prose a:hover {
+ color: #93c5fd;
+}
+
+.chat-message .prose strong {
+ font-weight: 600;
+}
+
+.chat-message .prose em {
+ font-style: italic;
+}
+
+.chat-message .prose table {
+ width: 100%;
+ border-collapse: collapse;
+ margin: 0.5rem 0;
+}
+
+.chat-message .prose th,
+.chat-message .prose td {
+ border: 1px solid rgba(255, 255, 255, 0.2);
+ padding: 0.25rem 0.5rem;
+ text-align: left;
+}
+
+.chat-message .prose th {
+ background-color: rgba(255, 255, 255, 0.1);
+ font-weight: 600;
+}

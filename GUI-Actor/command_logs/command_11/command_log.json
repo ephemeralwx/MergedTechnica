@@ -1,0 +1,22 @@
+{
+  "command_number": 11,
+  "command_text": "Press Enter",
+  "timestamp": "2025-11-16T00:16:10.520507",
+  "parsed_action": {
+    "type": "click",
+    "target": "Press Enter"
+  },
+  "screenshot_path": "command_logs/command_11/screenshot.png",
+  "vlm_request": {
+    "instruction": "Press Enter",
+    "screenshot_size": "768x498",
+    "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
+    "topk": 3
+  },
+  "vlm_response": null,
+  "predicted_points": [],
+  "selected_point": null,
+  "execution_result": null,
+  "errors": [],
+  "debug_screenshot_path": null
+}

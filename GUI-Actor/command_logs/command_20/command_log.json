@@ -1,0 +1,47 @@
+{
+  "command_number": 20,
+  "command_text": "Click 'Subject'",
+  "timestamp": "2025-11-15T19:27:51.137806",
+  "parsed_action": {
+    "type": "click",
+    "target": "Click 'Subject'"
+  },
+  "screenshot_path": "command_logs/command_20/screenshot.png",
+  "vlm_request": {
+    "instruction": "Click 'Subject'",
+    "screenshot_size": "1024x665",
+    "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
+    "topk": 3
+  },
+  "vlm_response": {
+    "topk_points": [
+      {
+        "x": 0.5705005697198424,
+        "y": 0.47916666666666674
+      }
+    ]
+  },
+  "predicted_points": [
+    {
+      "x": 0.5705005697198424,
+      "y": 0.47916666666666674
+    }
+  ],
+  "selected_point": {
+    "normalized": {
+      "x": 0.5705005697198424,
+      "y": 0.47916666666666674
+    },
+    "pixel": {
+      "x": 584,
+      "y": 318
+    }
+  },
+  "execution_result": {
+    "success": true,
+    "action_type": "click",
+    "details": "Clicked at (584, 318)"
+  },
+  "errors": [],
+  "debug_screenshot_path": "command_logs/command_20/debug_annotated.png"
+}

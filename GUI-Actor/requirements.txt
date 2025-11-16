@@ -1,0 +1,18 @@
+flask==3.0.0
+flask-cors==4.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=10.0.0
+pyautogui==0.9.54
+pynput==1.7.6
+PyObjC-core>=9.0; sys_platform == 'darwin'
+PyObjC-framework-Quartz>=9.0; sys_platform == 'darwin'
+transformers==4.51.3
+accelerate==1.1.1
+google-generativeai>=0.3.0
+opencv-python-headless>=4.10.0.84
+datasets>=2.18.0
+qwen-vl-utils==0.0.8
+wandb==0.18.3
+pre-commit>=3.7.1
+# Note: deepspeed and liger-kernel skipped on macOS (require Linux/triton)

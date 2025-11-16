@@ -1,0 +1,47 @@
+{
+  "command_number": 19,
+  "command_text": "Click on the Subject field.",
+  "timestamp": "2025-11-15T19:27:39.431646",
+  "parsed_action": {
+    "type": "click",
+    "target": "Click on the Subject field."
+  },
+  "screenshot_path": "command_logs/command_19/screenshot.png",
+  "vlm_request": {
+    "instruction": "Click on the Subject field.",
+    "screenshot_size": "1024x665",
+    "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
+    "topk": 3
+  },
+  "vlm_response": {
+    "topk_points": [
+      {
+        "x": 0.5780942283631306,
+        "y": 0.4702252276002672
+      }
+    ]
+  },
+  "predicted_points": [
+    {
+      "x": 0.5780942283631306,
+      "y": 0.4702252276002672
+    }
+  ],
+  "selected_point": {
+    "normalized": {
+      "x": 0.5780942283631306,
+      "y": 0.4702252276002672
+    },
+    "pixel": {
+      "x": 591,
+      "y": 312
+    }
+  },
+  "execution_result": {
+    "success": true,
+    "action_type": "click",
+    "details": "Clicked at (591, 312)"
+  },
+  "errors": [],
+  "debug_screenshot_path": "command_logs/command_19/debug_annotated.png"
+}

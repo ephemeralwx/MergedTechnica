@@ -1,0 +1,63 @@
+{
+  "command_number": 1,
+  "command_text": "Click on the address bar at the top of the screen",
+  "timestamp": "2025-11-16T03:29:11.400771",
+  "parsed_action": {
+    "type": "click",
+    "target": "Click on the address bar at the top of the screen"
+  },
+  "screenshot_path": "command_logs/command_1/screenshot.png",
+  "vlm_request": {
+    "instruction": "Click on the address bar at the top of the screen",
+    "screenshot_size": "768x498",
+    "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
+    "topk": 3
+  },
+  "vlm_response": {
+    "topk_points": [
+      {
+        "x": 0.5025453238907861,
+        "y": 0.07331825615091958
+      },
+      {
+        "x": 0.18821419888159494,
+        "y": 0.06781850230974958
+      },
+      {
+        "x": 0.35185185185185186,
+        "y": 0.027777777777777776
+      }
+    ]
+  },
+  "predicted_points": [
+    {
+      "x": 0.5025453238907861,
+      "y": 0.07331825615091958
+    },
+    {
+      "x": 0.18821419888159494,
+      "y": 0.06781850230974958
+    },
+    {
+      "x": 0.35185185185185186,
+      "y": 0.027777777777777776
+    }
+  ],
+  "selected_point": {
+    "normalized": {
+      "x": 0.5025453238907861,
+      "y": 0.07331825615091958
+    },
+    "pixel": {
+      "x": 385,
+      "y": 36
+    }
+  },
+  "execution_result": {
+    "success": true,
+    "action_type": "click",
+    "details": "Clicked at (385, 36)"
+  },
+  "errors": [],
+  "debug_screenshot_path": "command_logs/command_1/debug_annotated.png"
+}

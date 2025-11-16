@@ -1,0 +1,18 @@
+Command #2
+============================================================
+
+Command: Type 'youtube'
+Timestamp: 2025-11-16T03:29:32.504271
+
+Parsed Action:
+  Type: type
+  text: youtube
+
+Execution Result:
+  Success: True
+  Action Type: type
+  Details: Typed: youtube
+
+Files:
+  - screenshot.png: Original screenshot sent to VLM
+  - command_log.json: Complete log data in JSON format

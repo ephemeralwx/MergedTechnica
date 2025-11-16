@@ -1,0 +1,55 @@
+{
+  "command_number": 3,
+  "command_text": "Click on 'YouTube youtube.com' in the suggestion list at the top of the screen.",
+  "timestamp": "2025-11-16T03:29:37.507249",
+  "parsed_action": {
+    "type": "click",
+    "target": "Click on 'YouTube youtube.com' in the suggestion list at the top of the screen."
+  },
+  "screenshot_path": "command_logs/command_3/screenshot.png",
+  "vlm_request": {
+    "instruction": "Click on 'YouTube youtube.com' in the suggestion list at the top of the screen.",
+    "screenshot_size": "768x498",
+    "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
+    "topk": 3
+  },
+  "vlm_response": {
+    "topk_points": [
+      {
+        "x": 0.3342827391890237,
+        "y": 0.07104848095063089
+      },
+      {
+        "x": 0.5740740740740741,
+        "y": 0.08333333333333333
+      }
+    ]
+  },
+  "predicted_points": [
+    {
+      "x": 0.3342827391890237,
+      "y": 0.07104848095063089
+    },
+    {
+      "x": 0.5740740740740741,
+      "y": 0.08333333333333333
+    }
+  ],
+  "selected_point": {
+    "normalized": {
+      "x": 0.3342827391890237,
+      "y": 0.07104848095063089
+    },
+    "pixel": {
+      "x": 256,
+      "y": 35
+    }
+  },
+  "execution_result": {
+    "success": true,
+    "action_type": "click",
+    "details": "Clicked at (256, 35)"
+  },
+  "errors": [],
+  "debug_screenshot_path": "command_logs/command_3/debug_annotated.png"
+}

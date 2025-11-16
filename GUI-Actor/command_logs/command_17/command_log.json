@@ -1,0 +1,63 @@
+{
+  "command_number": 17,
+  "command_text": "Click on Subject field.",
+  "timestamp": "2025-11-15T19:27:15.503300",
+  "parsed_action": {
+    "type": "click",
+    "target": "Click on Subject field."
+  },
+  "screenshot_path": "command_logs/command_17/screenshot.png",
+  "vlm_request": {
+    "instruction": "Click on Subject field.",
+    "screenshot_size": "1024x665",
+    "model": "microsoft/GUI-Actor-2B-Qwen2-VL",
+    "topk": 3
+  },
+  "vlm_response": {
+    "topk_points": [
+      {
+        "x": 0.6051586167865238,
+        "y": 0.4791666666666667
+      },
+      {
+        "x": 0.7563350040781044,
+        "y": 0.4791666666666667
+      },
+      {
+        "x": 0.8783109192273035,
+        "y": 0.4791666666666667
+      }
+    ]
+  },
+  "predicted_points": [
+    {
+      "x": 0.6051586167865238,
+      "y": 0.4791666666666667
+    },
+    {
+      "x": 0.7563350040781044,
+      "y": 0.4791666666666667
+    },
+    {
+      "x": 0.8783109192273035,
+      "y": 0.4791666666666667
+    }
+  ],
+  "selected_point": {
+    "normalized": {
+      "x": 0.6051586167865238,
+      "y": 0.4791666666666667
+    },
+    "pixel": {
+      "x": 619,
+      "y": 318
+    }
+  },
+  "execution_result": {
+    "success": true,
+    "action_type": "click",
+    "details": "Clicked at (619, 318)"
+  },
+  "errors": [],
+  "debug_screenshot_path": "command_logs/command_17/debug_annotated.png"
+}
